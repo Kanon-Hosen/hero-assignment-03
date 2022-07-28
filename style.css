@@ -5,3 +5,19 @@
 .Institute-bg{
     background-color: #F4FAFD;
 }
+.overlay {
+    position: absolute;
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; 
+
+  }
+.res-img{
+  height: 95vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
